@@ -46,3 +46,40 @@ body {
 .yellow {
   background-color: yellow;
 }
+
+
+.container {
+    position: relative;
+}
+
+.box.blue {
+    top: 50px;
+    left: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.box.red {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.box.green {
+    position: absolute;
+    bottom: 50px;
+    right: 50%;
+}
+
+.box.orange {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+
+.box.yellow {
+    position: fixed;
+    float: left;
+    width: 100%;
+    display: block;
+}
